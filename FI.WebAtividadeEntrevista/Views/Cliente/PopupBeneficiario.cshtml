@@ -1,0 +1,62 @@
+﻿
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="pull-left">
+                <div class="modal fade bootstrapmodal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                Beneficiários
+                            </div>
+                            <div class="modal-body">
+
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="Nome">CPF:</label>
+                                            <input type="text" class="form-control" id="CPFBeneficiario" name="CPFBeneficiario" maxlength="14">
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="Sobrenome">Nome:</label>
+                                            <input type="text" class="form-control" id="NomeBeneficiario" name="NomeBeneficiario" placeholder="Ex.: João da Silva" maxlength="50">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-group">
+                                            <label></label>
+                                            <a href="#"class="btn btn-success" id="CadBenef" onclick="AdicionarGridBeneficiario()"> incluir</a>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <table id="gridBeneficiarios" class="table">
+
+                                            </table>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal"  id="btnFecharModal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                        
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+
+
